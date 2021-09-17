@@ -1,0 +1,231 @@
+body {
+    background-color:  #1976D2;
+}
+.container {
+    max-width: 1620px;!important;
+}
+a {
+    color: black;
+}
+.imgBox {
+    background-color: #5E9FE0;
+    border-radius: 40px 0 0 40px;
+}
+.imgBox img {
+    padding: 10%;
+}
+
+.contentBox {
+    position: relative;
+   padding: 90px 120px 110px 120px ;
+    background-color: #fff;
+    border-radius:  0 40px 40px 0 ;
+}
+.contentBox img {
+    padding-bottom: 10px;
+}
+
+
+.btn1 {
+    max-width: 350px;
+    width: 100%;
+    border: 1px solid #1976D2;
+    border-radius: 20px;
+    background-color:#1976D2 ;
+    height: 60px;
+
+}
+.log-btn-text {
+    font: 500 normal 18px/20px "Roboto",sans-serif ;!important;
+
+    letter-spacing: -0.02em;
+}
+.btn1 span {
+    color: #fff;
+}
+.log-service {
+    padding: 40px 0 10px 0;
+}
+.form-row input {
+    width: 100%;
+    height: 60px;
+    display: block;
+    border-radius: 20px;
+    border: 2px solid #1976D2;
+    overflow: hidden;
+}
+.ggl__log {
+    display: block;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #FF725E;
+    text-decoration: none;
+    padding: 7px  45px 15px 10px;
+    border-radius: 20px;
+    background: #FF725E;
+    color: #ffffff;
+
+}
+.ggl__log:hover {
+    color: #fff;
+}
+.ms__log {
+    display: block;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #1976D2;
+    text-decoration: none;
+    padding: 7px  30px 15px 10px;
+    border-radius: 20px;
+    background: #1976D2;
+    color: #ffffff;
+
+}
+.ms__log:hover {
+    color: #fff;
+}
+.or-line {
+    padding-top: 20px;
+   padding-right: 5px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden
+}
+.or-line span {
+    position: relative;
+    font: normal 500 18px/20px "Roboto",sans-serif;
+    letter-spacing: -0.02em;
+
+    color: #1976D2;
+
+}
+.or-line span:before {
+    display: block;
+    width:250px;
+    content: '';
+    position: absolute;
+    border-bottom: 1px solid rgba(25, 118, 210, 0.4);
+    top:50%;
+    right: 35px;
+    opacity: 60%;
+}.or-line span:after {
+     display: block;
+     width:250px;
+     content: '';
+     position: absolute;
+     border-bottom: 1px solid rgba(25, 118, 210, 0.4);
+     top:50%;
+     left: 35px;
+     opacity: 60%;
+ }
+.mail__text {
+
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #23213D;
+}
+.email__text {
+    padding: 15px 0;
+    font: normal 500 18px/20px "Roboto",sans-serif;
+    color: #6F6F6F;
+}
+.reg__text {
+   padding-top: 30px;
+    font-family: "Roboto",sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 110%;
+
+    letter-spacing: -0.02em;
+
+    color: #23213D;
+}
+.reg__link {
+    text-decoration: none;
+    border-bottom: 1px solid #1976D2 ;
+     padding-bottom: 3px;
+
+    font-family: "Roboto",sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 110%;
+
+    letter-spacing: -0.02em;
+
+    color: #1976D2;
+
+}
+.copyright {
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 110%;
+    padding-top: 40px;
+    letter-spacing: -0.02em;
+
+    color: #000000;
+}
+/*
+ Media
+ */
+@media screen and (max-width: 1170px) {
+    .contentBox {
+        padding: 60px 70px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .contentBox {
+        padding: 45px 55px ;
+    }
+}
+@media screen and (max-width: 450px) {
+    .contentBox {
+        padding: 25px 35px ;
+    }
+    .reg__link {
+
+    }
+}
+@media screen and (max-width: 392px) {
+    .contentBox {
+        padding: 15px 25px ;
+    }
+    .ggl__log {
+        padding: 7px  0px 10px 10px;
+    }
+    .ms__log {
+        padding: 7px  3px 10px 10px;
+    }
+
+}
+@media screen and (max-width: 310px) {
+    .contentBox {
+        padding: 5px 15px ;
+    }
+    .ggl__log {
+        padding: 3px  0px 5px 5px;
+        height: auto;
+    }
+    .ms__log {
+        padding: 3px  2px 5px 5px;
+        height: auto;
+    }
+    svg {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+
+
+
+
+
