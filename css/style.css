@@ -1,5 +1,6 @@
 body {
     background-color:  #1976D2;
+
 }
 .container {
     max-width: 1620px;!important;
@@ -181,37 +182,59 @@ a {
         padding: 60px 70px;
     }
 }
+
 @media screen and (max-width: 768px) {
     .contentBox {
         padding: 45px 55px ;
+        border-radius: 0 40px 0 40px ;
     }
 }
-@media screen and (max-width: 450px) {
-    .contentBox {
-        padding: 25px 35px ;
-    }
-    .reg__link {
 
+@media screen and (max-width: 480px ) {
+
+    .contentBox {
+        margin: 5vh 0;
+        border-radius: 40px;
+        padding: 50px 25px ;
+        height: 90vh;
     }
+    .ggl__log {
+        padding: 7px  0 10px 10px;
+    }
+    .ms__log {
+        padding: 7px  3px 10px 10px;
+    }
+    .imgBox {
+        display: none;
+    }
+
+
 }
 @media screen and (max-width: 392px) {
     .contentBox {
-        padding: 15px 25px ;
+        margin: 5vh 0;
+        padding: 35px 25px ;
+        height: 90vh;
     }
     .ggl__log {
-        padding: 7px  0px 10px 10px;
+        padding: 7px  0 10px 10px;
     }
     .ms__log {
         padding: 7px  3px 10px 10px;
     }
 
+
 }
 @media screen and (max-width: 310px) {
     .contentBox {
-        padding: 5px 15px ;
+        padding: 15px 15px ;
+
+    }
+    .contentBox img {
+        padding-bottom: 0;
     }
     .ggl__log {
-        padding: 3px  0px 5px 5px;
+        padding: 3px  0 5px 5px;
         height: auto;
     }
     .ms__log {
@@ -223,7 +246,12 @@ a {
         height: 25px;
     }
 }
-
+@media screen  and (max-height: 760px){
+    .contentBox {
+        height: auto;
+        margin: 3vh 0;
+    }
+}
 
 
 

@@ -189,25 +189,45 @@ svg {
         padding: 60px 70px;
     }
 }
+
 @media screen and (max-width: 768px) {
     .contentBox {
         padding: 45px 55px ;
     }
 }
-@media screen and (max-width: 450px) {
-    .contentBox {
-        padding: 25px 35px ;
-    }
-    .reg__link {
+@media screen and (max-width: 480px ) {
 
+    .contentBox {
+        margin: 3vh 0;
+        border-radius: 40px;
+        padding: 30px 25px ;
+        height: 93vh;
     }
+    .ggl__log {
+        padding: 7px  0 10px 10px;
+    }
+    .ms__log {
+        padding: 7px  3px 10px 10px;
+    }
+    .imgBox {
+        display: none;
+    }
+    .copyright {
+        padding-top: 30px;
+    }
+    .log-service {
+        padding-top: 25px;
+    }
+
 }
 @media screen and (max-width: 392px) {
     .contentBox {
-        padding: 15px 25px ;
+        margin: 5vh 0;
+        padding: 35px 25px ;
+        height: 90vh;
     }
     .ggl__log {
-        padding: 7px  0px 10px 10px;
+        padding: 7px  0 10px 10px;
     }
     .ms__log {
         padding: 7px  3px 10px 10px;
@@ -216,10 +236,14 @@ svg {
 }
 @media screen and (max-width: 310px) {
     .contentBox {
-        padding: 5px 15px ;
+        padding: 15px 15px ;
+
+    }
+    .contentBox img {
+        padding-bottom: 0;
     }
     .ggl__log {
-        padding: 3px  0px 5px 5px;
+        padding: 3px  0 5px 5px;
         height: auto;
     }
     .ms__log {
@@ -231,7 +255,13 @@ svg {
         height: 25px;
     }
 }
+@media screen  and (max-height: 830px){
+    .contentBox {
+        height: auto;
+        margin: 1vh 0;
+    }
 
+}
 
 
 
